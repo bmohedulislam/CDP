@@ -801,7 +801,7 @@ visibility: visible;
 /* ======= Programs Part end ======= */
 
 /* footer part start */
-.footer_part{
+#footer_part{
   padding-top: 30px;
   background: #222;
 }
@@ -830,7 +830,7 @@ visibility: visible;
 }
 .footer_social h6{
   color: #fff;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   font-family:  'Open Sans';
   padding-bottom: 10px;
