@@ -39,7 +39,7 @@
     /*  Menu part start  */
     .main_menu {
         top: 0px;
-        background: red;
+        background: #063F9A;
     }
 
     .main_menu .navbar-brand {
@@ -60,7 +60,7 @@
     }
 
     .main_menu .navbar-nav {
-        background: red;
+        background: #063F9A;
         text-align: center;
         border-top: 1px solid rgba(255, 255, 255, 0.2);
         padding: 10px 0;
@@ -218,7 +218,8 @@
     /*  Menu part start  */
     .main_menu {
         top: 0px;
-        background: red;
+        background: #063F9A;
+        z-index: 999;
     }
 
     .main_menu .navbar-brand {
@@ -239,10 +240,11 @@
     }
 
     .main_menu .navbar-nav {
-        background: red;
+        background: #063F9A;
         text-align: center;
         border-top: 1px solid rgba(255, 255, 255, 0.2);
         padding: 10px 0;
+        
     }
 
     .main_menu .navbar-nav .nav-item .nav-link::after {
