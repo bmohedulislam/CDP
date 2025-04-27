@@ -230,12 +230,12 @@
         display: none;
       }
       
-      .top_btn a{
+      /* .top_btn a{
         display: none;
       }
       .top_icon a{
         display: none;
-      }
+      } */
     /* ======= Top part end ======= */
 
     /*  Menu part start  */
@@ -256,7 +256,7 @@
 
     .main_menu button i {
         color: #fff;
-        padding-left: 270px;
+        /* padding-left: 270px; */
     }
 
     .main_menu button:focus {
@@ -270,10 +270,9 @@
         padding: 10px 0;
         
     }
-    .search-container {
-       display: none;
-      }
-
+    .search-container{
+        display: none;
+    }
     /* .main_menu .navbar-nav .nav-item .nav-link::after {
         display: none;
     }

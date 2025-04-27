@@ -103,6 +103,21 @@ span {
   height: 40px;
   background: #063F9A;
   justify-content: center;
+  line-height: 40px;
+}
+nav {
+  width: 100%;
+  padding: 20px;
+  background: lightblue;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: dodgerblue;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 .main_menu .navbar-nav .nav-item .nav-link {
   color: #fff;
@@ -196,6 +211,8 @@ visibility: visible;
   position: relative;
   width: 150px;
   margin-left: 30px;
+  height: 40px;
+  line-height: 40px;
   /* margin: 20px; */
 }
 
@@ -515,16 +532,21 @@ visibility: visible;
   font-weight: 600;
   color: #0d6efd;
 }
-.news_inner h5{
+.news_homeinner h5{
   /* color: #222; */
   font-size: 18px;
   font-weight: 700;
   font-family: 'Open Sans';
-  margin-bottom: 5px;
 }
-.news_inner p{
+.news_homeinner p{
   color: #222;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans';
+}
+.news_homeinner a{
+  color: #0d6efd;
+  font-size: 14px;
   font-weight: 400;
   font-family: 'Open Sans';
 }
@@ -1757,32 +1779,32 @@ visibility: visible;
   color: #222;
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
 } */
-.about_item{
+.about_inner{
   padding-bottom: 50px;
   border: none;
   border-radius: 15px;
-  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.10);
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease;
   padding: 20px;
   text-align: justify;
 }
 
-.human_inner h4{
+.about_inner h4{
   /* color: #222; */
   font-size: 20px;
   font-weight: 700;
   font-family:  'Open Sans';
 }
-.human_inner p{
+.about_inner p{
   color: #222;
   font-size: 14px;
   font-weight: 400;
   font-family:  'Open Sans';
 }
 /* About part end */
-/* Ed part end */
+/* Ed details part start */
 
 .ed_inner{
   background-color: #fff;
@@ -1817,5 +1839,28 @@ visibility: visible;
   font-weight: 700;
   font-family:  'Open Sans';
 }
-/* Ed part end */
+/* Ed details part end */
+/* Reports part start */
+#reports_part{
+  padding: 50px 0;
+}
+.reports_header{
+  padding-bottom: 30px;
+}
+.reports_header h4{
+  font-size: 25px;
+  font-weight: 700;
+  font-family:  'Open Sans';
+}
+.rep_tabhed {
+  font-size: 18px;
+  font-weight: 700;
+  font-family:  'Open Sans';
+}
+.rep_tabinner {
+  font-size: 16px;
+  font-weight: 400;
+  font-family:  'Open Sans';
+}
+/* Reports part end */
 
